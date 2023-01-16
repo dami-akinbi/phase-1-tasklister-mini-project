@@ -1,17 +1,13 @@
 html {
   height: 100%;
-  width: 100%;
-  font-family: "Titillium Web", sans-serif;
+  width: 98.5%;
+  font-family: cursive, "Titillium Web", sans-serif;
 }
 
 body {
   min-height: 100%;
   min-width: 100%;
   background: linear-gradient(pink, violet);
-}
-
-button {
-  font-size: 7px;
 }
 
 #main-content {
@@ -32,6 +28,12 @@ button {
   border: 1px solid #333;
   background: rgba(255, 255, 255, 0.75);
   padding: 15px 20px 18px 18px;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 2px 5px 5px #333;
+}
+
+input[type="text"],
+input[type="submit"] {
+  padding: 0.5em;
+  border-radius: 0.25em;
 }

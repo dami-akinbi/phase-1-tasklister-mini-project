@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:learn-co-curriculum/js-task-lister-project.git"
+    "url": "git+ssh://git@github.com/learn-co-curriculum/js-task-lister-project.git"
   },
   "keywords": [
     "learn",
@@ -24,9 +24,14 @@
   },
   "homepage": "https://github.com/learn-co-curriculum/js-task-lister-project",
   "dependencies": {
-    "chai": "^4.2.0",
     "jsdom": "^9.0",
-    "mocha": "5.2.0",
     "mocha-jsdom": "~1.1.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
   }
 }
